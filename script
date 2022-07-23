@@ -25,6 +25,6 @@ end)
 local Player = Window:NewTab("Player")
 local PlayerSection = Player:NewSection("Player")
 
-Section:NewSlider("Walkspeed", "Changes Your walkspeed", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+PlayerSection:NewSlider("Walkspeed", "Changes Your walkspeed", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
