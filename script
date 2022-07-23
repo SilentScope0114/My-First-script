@@ -28,3 +28,8 @@ local PlayerSection = Player:NewSection("Player")
 PlayerSection:NewSlider("Walkspeed", "Changes Your walkspeed", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
+
+
+MainSection:NewButton("Winter", "Da hood script and hood customs", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nosssa/NossLock/main/WinterTime"))()
+end)
