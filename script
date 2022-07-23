@@ -1,0 +1,16 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Silents-ScriptHub", "Midnight")
+
+-- MAIN
+local MAIN = Window:NewTab("Locks and scrips")
+local MainSection = MAIN:NewSection("Script page 1 have fun guys")
+
+
+MainSection:NewButton("Aimbot center", "Have Fun!", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua'))()
+end)
+
+
+MainSection:NewButton("RAYX", "Da hood exploit", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+end)
